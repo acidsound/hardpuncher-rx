@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta(name='description', content='HardPuncher')
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    title HardPuncher Rx!
+    script(src='https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.7/dist/global/Rx.umd.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js')
+    link(type='text/css', rel="stylesheet" href='https://cdn.rawgit.com/acidsound/Tle-CSS/master/dist/tle.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/stylus/0.32.1/stylus.min.js')
+    link(type='text/css', rel="stylesheet" href='./index.css')
+    //script(src="http://coffeescript.org/extras/coffee-script.js")
+    //script(src="./index.coffee", type="text/coffeescript")
+    script(src="./index.js", type="text/javascript")
+  body
+    div(class="한가운데")
+      div(class="틀")
+        h3
+          | HardPucher Rx!
+        div#desc
+          em 말 안듣는 아이 ver.β
+        #stage
+          #punch 👊
+          #enemy 👻
+        div
+          button#fire Punch!
+        pre#log.

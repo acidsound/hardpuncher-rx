@@ -1,0 +1,12 @@
+{
+  "name": "zoocman",
+  "version": "1.0.0",
+  "description": "zoocm Rx game example",
+  "main": "index.html",
+  "scripts": {
+	"start": "jade index.jade && stylus index.styl && coffee -c index.coffee && python -m SimpleHTTPServer 8080",
+	"build": "jade index.jade && stylus index.styl && coffee -c index.coffee"
+  },
+  "author": "@acidsound",
+  "license": "MIT"
+}

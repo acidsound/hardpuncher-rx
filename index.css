@@ -1,0 +1,45 @@
+body {
+  -webkit-touch-callout: none !important;
+}
+* {
+  -webkit-user-select: none !important;
+}
+#stage {
+  position: relative;
+  height: 6rem;
+  background-color: #e6e6fa;
+  padding: 2rem;
+}
+#punch,
+#enemy {
+  font-size: 3rem;
+}
+#punch {
+  position: absolute;
+  width: 100%;
+  height: 3rem;
+  left: 2rem;
+  top: 2rem;
+}
+#fire {
+  width: 32rem;
+  height: 10rem;
+  font-size: 2.5rem;
+}
+#enemy {
+  position: absolute;
+  width: 2rem;
+  height: 5rem;
+  top: 2rem;
+  left: 27rem;
+}
+#log {
+  height: 10rem;
+  overflow-y: auto;
+}
+#desc {
+  text-align: right;
+}
+.틀 {
+  width: 36rem !important;
+}
